@@ -24,6 +24,11 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".WorkActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Widgets" />
+
         <receiver android:name=".SimpleWidget"
             android:exported="true">
             <intent-filter>
